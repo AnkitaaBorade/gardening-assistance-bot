@@ -12,6 +12,7 @@ General Gardening Inquiries: Users can inquire about gardening techniques, plant
 # Installation
 Prerequisites
 Make sure you have the following installed:
+
 Python (Version 3.10 or lower is recommended, as versions 3.11/3.12 may cause compatibility issues with some libraries)
 Streamlit
 NLTK
