@@ -9,14 +9,14 @@ Seasonal Climate-based Suggestions: The chatbot gives gardening tips based on th
 Rainwater Harvesting Tips: The chatbot educates users on how to set up rainwater harvesting systems for sustainable water use in gardening.
 General Gardening Inquiries: Users can inquire about gardening techniques, plant types, etc. 
 
-#Installation
+# Installation
 Prerequisites
 Make sure you have the following installed:
 Python (Version 3.10 or lower is recommended, as versions 3.11/3.12 may cause compatibility issues with some libraries)
 Streamlit
 NLTK
 
-#How It Works
+# How It Works
 The chatbot uses Natural Language Processing (NLP) and intent-based matching techniques to understand user inputs and generate appropriate responses. 
 The key features include:
 Intent Matching: The chatbot matches user inputs to predefined patterns and selects the best response based on a similarity score.
