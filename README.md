@@ -13,9 +13,9 @@ General Gardening Inquiries: Users can inquire about gardening techniques, plant
 Prerequisites
 Make sure you have the following installed:
 
-Python (Version 3.10 or lower is recommended, as versions 3.11/3.12 may cause compatibility issues with some libraries)
-Streamlit
-NLTK
+-Python (Version 3.10 or lower is recommended, as versions 3.11/3.12 may cause compatibility issues with some libraries).
+-Streamlit.
+-NLTK.
 
 # How It Works
 The chatbot uses Natural Language Processing (NLP) and intent-based matching techniques to understand user inputs and generate appropriate responses. 
