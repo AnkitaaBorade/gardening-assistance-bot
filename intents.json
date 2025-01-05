@@ -1,0 +1,726 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Good evening", "What's up?", "Howdy"
+        ],
+        "responses": [
+          "Hello! How can I assist you with your gardening needs?",
+          "Hi there! Need help with plants or eco-friendly gardening tips?",
+          "Hey! What gardening questions do you have for me today?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Goodbye", "Bye", "See you later", "Take care", "Catch you later", "I’m leaving"
+        ],
+        "responses": [
+          "Goodbye! Happy gardening! 🌱",
+          "See you later! Feel free to ask if you have more gardening questions.",
+          "Take care and enjoy your time with your plants!"
+        ]
+      },
+      {
+        "tag": "no_match",
+        "patterns": [],
+        "responses": [
+          "I'm sorry, I didn't understand that. Could you rephrase your question?",
+          "Hmm, I’m not sure about that. Can you ask something else related to gardening?",
+          "I couldn’t find a match for your question. Let me know if you need help with gardening or eco-friendly practices!"
+        ]
+      },
+      {
+        "tag": "start_gardening",
+        "patterns": [
+          "How do I start gardening at home?", "What are the first steps to begin gardening?", "Can you guide me on how to start gardening?", "I want to start gardening. How do I begin?"
+        ],
+        "responses": [
+          "Starting gardening at home is easy! Begin by selecting a small space, either indoors or outdoors. Decide what you want to grow—herbs, flowers, or vegetables. Use pots or containers with good drainage, choose the right soil, and ensure proper sunlight. Start small and expand as you gain confidence!",
+          "To start gardening, pick a sunny spot, get some containers or garden beds, and choose easy-to-grow plants like herbs or succulents. Make sure to use quality soil and water regularly!"
+        ]
+      },
+      {
+        "tag": "easy_plants",
+        "patterns": [
+          "What are the easiest plants to grow for beginners?", "Can you suggest beginner-friendly plants?", "Which plants are best for new gardeners?", "beginner friendly plants", "I’m new to gardening. What should I plant?"
+        ],
+        "responses": [
+          "For beginners, try growing herbs like basil, mint, or parsley. Succulents are also easy to maintain, as they require minimal watering. Vegetables like lettuce and radishes grow quickly and are great for starters!",
+          "Easy plants for beginners include herbs (basil, mint), vegetables (lettuce, spinach), and hardy flowers like marigolds. They’re low-maintenance and rewarding to grow!"
+        ]
+      },
+      {
+        "tag": "indoor_plants",
+        "patterns": [
+          "Can I grow plants indoors without much sunlight?", "What plants can thrive indoors with low light?", "Are there plants that don’t need much sunlight?", "How can I grow plants indoors without direct sunlight?"
+        ],
+        "responses": [
+          "Yes, you can grow low-light plants like pothos, snake plants, or peace lilies indoors. Use grow lights if natural light is insufficient, and make sure to water them moderately.",
+          "Plants like ferns, philodendrons, and spider plants do well indoors with minimal sunlight. You can also try using artificial lights to help them grow."
+        ]
+      },
+      {
+        "tag": "small_space_gardening",
+        "patterns": [
+          "How do I maintain a garden in a small space?", "Can I garden if I have limited space?", "What are some tips for small-space gardening?", "tips for small-space gardening?", "How can I grow plants in a small area?"
+        ],
+        "responses": [
+          "Small-space gardening is all about creativity! Use vertical gardening techniques, hanging pots, or stackable planters. Grow herbs or compact plants that don’t require much room.",
+          "Even in small spaces, you can garden using containers, window boxes, or vertical planters. Focus on plants like herbs, lettuce, or flowers that grow well in tight areas."
+        ]
+      },
+      {
+        "tag": "choosing_plants",
+        "patterns": [
+          "How do I choose the right plants for my home garden?", "What factors should I consider when selecting plants?", "Can you help me pick the best plants for my garden?", "What should I think about before buying plants?"
+        ],
+        "responses": [
+          "Choose plants based on the amount of sunlight your space gets, your climate, and how much time you can dedicate to care. Start with low-maintenance plants if you’re a beginner!",
+          "When selecting plants, consider your garden’s light exposure, available space, and your local climate. Native plants are a great choice for easy maintenance and environmental benefits."
+        ]
+      },
+      {
+        "tag": "gardening_environment",
+        "patterns": [
+          "How can gardening help the environment?", "In what ways does gardening benefit the planet?", "Can gardening have a positive impact on the environment?", "Why is gardening good for the environment?"
+        ],
+        "responses": [
+          "Gardening helps the environment by improving air quality, reducing carbon dioxide levels, and supporting biodiversity. It also reduces waste through composting and creates habitats for wildlife.",
+          "By gardening, you contribute to a healthier environment by planting trees and plants that absorb carbon dioxide, reducing urban heat, and promoting pollination. It’s a simple way to make a big difference!"
+        ]
+      },
+      {
+        "tag": "ecofriendly_practices",
+        "patterns": [
+          "What are some eco-friendly gardening practices?", "Can you suggest sustainable gardening tips?", "How can I garden in an environmentally friendly way?", "What are green gardening practices?"
+        ],
+        "responses": [
+          "Eco-friendly practices include composting, using rainwater for irrigation, planting native species, avoiding chemical pesticides, and using organic fertilizers. Mulching and crop rotation are also great options!",
+          "Sustainable gardening involves using natural pest control methods, conserving water, and choosing plants that thrive in your local climate. These small steps make a big environmental impact."
+        ]
+      },
+      {
+        "tag": "zero_waste_garden",
+        "patterns": [
+          "How do I create a zero-waste garden?", "Can you guide me on zero-waste gardening?", "What steps can I take for a zero-waste garden?", "Is it possible to have a waste-free garden?"
+        ],
+        "responses": [
+          "To create a zero-waste garden, compost kitchen and garden waste, reuse old containers for planting, and recycle materials for garden tools or decorations. Avoid single-use plastics and opt for biodegradable options.",
+          "A zero-waste garden starts with composting organic waste, using rainwater for irrigation, and repurposing materials like old jars or pallets for planters. It’s all about reducing, reusing, and recycling!"
+        ]
+      },
+      {
+        "tag": "carbon_footprint",
+        "patterns": [
+          "How can I reduce my carbon footprint through gardening?", "What gardening practices lower carbon emissions?", "Can gardening help me be more eco-friendly?", "How does gardening reduce carbon footprints?"
+        ],
+        "responses": [
+          "Gardening reduces your carbon footprint by growing your own food, which cuts down on transportation emissions. Planting trees and shrubs also absorbs CO2, and composting reduces methane from landfills.",
+          "You can lower your carbon footprint by using manual tools, planting carbon-absorbing plants, and growing food locally. Every small effort in your garden adds up to a big impact!"
+        ]
+      },
+      {
+        "tag": "pollinator_friendly",
+        "patterns": [
+          "How can I make my garden pollinator-friendly?", "What are ways to attract pollinators to my garden?", "Can I create a garden that supports bees and butterflies?", "How do I make my garden better for pollinators?"
+        ],
+        "responses": [
+          "To make your garden pollinator-friendly, plant a variety of flowers that bloom throughout the year. Avoid pesticides, provide water sources, and include native plants to attract bees, butterflies, and birds.",
+          "You can support pollinators by planting nectar-rich flowers, creating shelter with shrubs or hedges, and leaving some wild areas in your garden. Pollinators are crucial for a thriving ecosystem!"
+        ]
+      },
+          {
+            "tag": "composting_start",
+            "patterns": [
+              "How do I start composting at home?",
+              "What are the basics of composting?",
+              "Can you guide me on starting composting?",
+              "How can I begin composting in my garden?"
+            ],
+            "responses": [
+              "To start composting, choose a bin or a designated spot in your garden. Add a mix of green materials (like fruit peels and vegetable scraps) and brown materials (like dry leaves and cardboard). Keep it moist and turn it regularly for aeration.",
+              "Starting composting is easy! Collect organic waste like kitchen scraps and garden clippings, layer them with dry materials, and keep the pile damp but not wet. Turn the compost occasionally to speed up decomposition."
+            ]
+          },
+          {
+            "tag": "composting_materials",
+            "patterns": [
+              "What can I compost, and what should I avoid?",
+              "Which items are compostable?",
+              "Can you tell me what to include and exclude in composting?",
+              "What materials are good for composting?"
+            ],
+            "responses": [
+              "You can compost fruit and vegetable scraps, coffee grounds, eggshells, yard waste, and shredded paper. Avoid meat, dairy, oily foods, and pet waste as they attract pests and take longer to decompose.",
+              "Good compost materials include fruit peels, grass clippings, and dry leaves. Avoid adding plastics, synthetic materials, or processed foods. Stick to organic and biodegradable items for best results."
+            ]
+          },
+          {
+            "tag": "composting_benefits",
+            "patterns": [
+              "How does composting benefit my garden?",
+              "Why should I compost for my garden?",
+              "What are the advantages of composting?",
+              "Can composting improve my plants?"
+            ],
+            "responses": [
+              "Composting enriches your soil with nutrients, improves its structure, and enhances water retention. It also reduces the need for chemical fertilizers and promotes healthy plant growth.",
+              "By composting, you create a natural fertilizer that boosts soil fertility, supports beneficial microorganisms, and reduces waste. Your garden will thrive with nutrient-rich compost!"
+            ]
+          },
+          {
+            "tag": "soil_health",
+            "patterns": [
+              "How do I improve soil health naturally?",
+              "What are natural ways to enhance soil quality?",
+              "Can you suggest methods for better soil health?",
+              "How can I make my garden soil more fertile?"
+            ],
+            "responses": [
+              "Improve soil health by adding organic matter like compost or manure, rotating crops, and planting cover crops. Avoid over-tilling and use mulch to retain moisture and prevent erosion.",
+              "Natural ways to boost soil health include using compost, growing nitrogen-fixing plants, and incorporating earthworms. Healthy soil is the foundation of a thriving garden!"
+            ]
+          },
+          {
+            "tag": "save_water_gardening",
+            "patterns": [
+              "How can I save water while gardening?",
+              "What are water-saving tips for gardening?",
+              "Can you suggest ways to conserve water in my garden?",
+              "How do I garden without wasting water?"
+            ],
+            "responses": [
+              "To save water, use drip irrigation, water early in the morning or late in the evening, and mulch your soil to retain moisture. Group plants with similar water needs together.",
+              "Water conservation in gardening is easy with techniques like using soaker hoses, collecting rainwater, and planting drought-resistant plants. Mulching also helps reduce water evaporation."
+            ]
+          },
+          {
+            "tag": "rainwater_harvesting",
+            "patterns": [
+              "What is rainwater harvesting, and how do I use it in my garden?",
+              "Can I collect rainwater for gardening?",
+              "How does rainwater harvesting work?",
+              "What are the benefits of rainwater harvesting in gardening?"
+            ],
+            "responses": [
+              "Rainwater harvesting involves collecting and storing rainwater from rooftops or other surfaces. Use it to water your plants or fill garden ponds. It's an eco-friendly way to conserve water.",
+              "You can collect rainwater using barrels or tanks connected to your roof gutters. It's great for watering plants, reducing your water bill, and supporting sustainable gardening practices."
+            ]
+          },
+          {
+            "tag": "reuse_household_water",
+            "patterns": [
+              "Can I reuse household water for gardening?",
+              "Is it safe to use greywater for plants?",
+              "How do I recycle water for gardening?",
+              "Can I water plants with used water?"
+            ],
+            "responses": [
+              "Yes, you can reuse household water, like water from washing vegetables or rinsing dishes, as long as it doesn't contain harsh chemicals. This is called greywater recycling.",
+              "Recycled household water can be used for non-edible plants. Ensure the water is free of soap, grease, or chemicals. It's an excellent way to save water and reduce waste."
+            ]
+          },
+              {
+                "tag": "easy_vegetables_home",
+                "patterns": [
+                  "What vegetables can I grow at home with minimal effort?",
+                  "Can you suggest easy vegetables to grow at home?",
+                  "What are the best vegetables for beginner gardeners?",
+                  "How do I grow vegetables with less effort?"
+                ],
+                "responses": [
+                  "Vegetables like lettuce, spinach, radishes, and cherry tomatoes are easy to grow at home. They require minimal care and grow quickly in small spaces.",
+                  "For beginners, try growing leafy greens, carrots, or beans. These vegetables thrive in small gardens and are perfect for minimal-effort gardening."
+                ]
+              },
+              {
+                "tag": "indoor_herbs",
+                "patterns": [
+                  "How do I grow herbs like basil, mint, or cilantro indoors?",
+                  "Can I grow herbs indoors?",
+                  "What are the best herbs to grow at home?",
+                  "How do I care for indoor herbs like basil or mint?"
+                ],
+                "responses": [
+                  "Herbs like basil, mint, and cilantro grow well indoors with sufficient sunlight. Place them near a sunny window and water regularly. Use pots with good drainage.",
+                  "To grow herbs indoors, use small pots, a sunny windowsill, and well-drained soil. Basil, mint, and cilantro are perfect choices for indoor gardening."
+                ]
+              },
+              {
+                "tag": "home_fruits",
+                "patterns": [
+                  "Can I grow fruits like strawberries or lemons at home?",
+                  "What fruits can I grow in my home garden?",
+                  "How do I grow fruits like strawberries indoors?",
+                  "Can I grow lemons in pots at home?"
+                ],
+                "responses": [
+                  "Yes, fruits like strawberries, lemons, and blueberries can be grown at home. Use containers or small garden beds, and ensure they get plenty of sunlight.",
+                  "You can grow strawberries in hanging baskets or lemons in pots. Just ensure they have good drainage and receive at least 6-8 hours of sunlight daily."
+                ]
+              },
+              {
+                "tag": "home_garden_flowers",
+                "patterns": [
+                  "What are the best flowers to grow in a home garden?",
+                  "Can you suggest flowers for a home garden?",
+                  "What flowers are easy to grow at home?",
+                  "How do I choose flowers for my garden?"
+                ],
+                "responses": [
+                  "Marigolds, petunias, and zinnias are great choices for home gardens. They are low-maintenance, colorful, and attract pollinators.",
+                  "For a vibrant garden, try growing sunflowers, pansies, or daisies. They are beginner-friendly and thrive with basic care."
+                ]
+              },
+              {
+                "tag": "low_maintenance_plants",
+                "patterns": [
+                  "How do I grow low-maintenance plants?",
+                  "What are the best low-maintenance plants for home garden?",
+                  "Can you suggest easy-to-care-for plants?",
+                  "How do I care for plants with minimal effort?"
+                ],
+                "responses": [
+                  "Succulents, snake plants, and pothos are excellent low-maintenance options. They require minimal watering and thrive in various conditions.",
+                  "For low-maintenance gardening, choose plants like aloe vera, spider plants, or peace lilies. They are hardy and perfect for busy gardeners."
+                ]
+              },
+              {
+                "tag": "natural_pest_protection",
+                "patterns": [
+                  "How do I protect my plants from pests naturally?",
+                  "What are natural methods to keep pests away?",
+                  "Can I protect plants without using chemicals?",
+                  "How do I avoid pests in my garden naturally?"
+                ],
+                "responses": [
+                  "You can use neem oil, garlic spray, or introduce beneficial insects like ladybugs to protect plants naturally. Companion planting is also effective for deterring pests.",
+                  "To naturally protect plants from pests, try using homemade sprays like soap water, or plant pest-repelling herbs like marigold and basil nearby."
+                ]
+              },
+              {
+                "tag": "chemical_free_pest_control",
+                "patterns": [
+                  "What are natural ways to deter pests without chemicals?",
+                  "How can I keep pests away without using pesticides?",
+                  "Are there chemical-free pest control options?",
+                  "What are organic methods to handle garden pests?"
+                ],
+                "responses": [
+                  "Natural pest deterrents include using diatomaceous earth, coffee grounds, or eggshells around plants. These methods are safe and eco-friendly.",
+                  "You can deter pests without chemicals by using traps, barriers, or planting pest-repellent plants like lavender and rosemary."
+                ]
+              },
+              {
+                "tag": "healthy_plants",
+                "patterns": [
+                  "How do I keep my plants healthy and disease-free?",
+                  "What are the best practices to maintain plant health?",
+                  "How do I prevent diseases in my plants?",
+                  "What should I do to ensure my plants stay healthy?"
+                ],
+                "responses": [
+                  "To keep plants healthy, water them appropriately, ensure proper sunlight, and remove any dead or diseased leaves regularly. Mulching also helps prevent diseases.",
+                  "Healthy plants thrive with good soil, adequate drainage, and regular inspection for pests or diseases. Prune damaged parts to encourage growth."
+                ]
+              },
+              {
+                "tag": "small_garden_design",
+                "patterns": [
+                  "How do I design a small home garden?",
+                  "What are some tips for small garden design?",
+                  "Can I create a garden in a small space?",
+                  "How do I make the most of limited garden space?"
+                ],
+                "responses": [
+                  "Designing a small home garden involves using vertical space, choosing compact plants, and creating multi-functional areas like seating with planters.",
+                  "For small gardens, use hanging pots, wall-mounted planters, and stackable containers to maximize space while keeping it beautiful."
+                ]
+              },
+              {
+                "tag": "vertical_gardening",
+                "patterns": [
+                  "What are the benefits of vertical gardening?",
+                  "Why should I try vertical gardening?",
+                  "How does vertical gardening save space?",
+                  "Is vertical gardening eco-friendly?"
+                ],
+                "responses": [
+                  "Vertical gardening saves space, improves air quality, and makes gardening accessible in urban areas. It’s a great option for small spaces.",
+                  "The benefits of vertical gardening include better use of space, reduced water usage, and the ability to grow plants in areas with limited ground space."
+                ]
+              },
+              {
+                "tag": "eco_friendly_garden_design",
+                "patterns": [
+                  "How can I create a garden that looks beautiful and is eco-friendly?",
+                  "What are some eco-friendly garden design ideas?",
+                  "How do I combine aesthetics with sustainability in my garden?",
+                  "Can I design a garden that is both pretty and eco-conscious?"
+                ],
+                "responses": [
+                  "To create a beautiful, eco-friendly garden, use native plants, upcycled materials, and water-efficient designs. Incorporate pollinator-friendly flowers for added charm.",
+                  "Combine beauty and sustainability by using recycled containers, solar-powered lights, and organic mulch in your garden design."
+                ]
+              },
+              {
+                "tag": "recycled_materials_garden",
+                "patterns": [
+                  "What are some creative ways to use recycled materials in my garden?",
+                  "How can I reuse items for gardening?",
+                  "Can I make garden decor from recycled materials?",
+                  "What are sustainable ideas for garden design?"
+                ],
+                "responses": [
+                  "Get creative with recycled materials by turning old tires into planters, using mason jars for herb gardens, or crafting garden art from scrap wood.",
+                  "Recycled materials like plastic bottles, tin cans, and broken pots can be transformed into unique planters or garden decorations."
+                ]
+              },
+              {
+                "tag": "sustainable_garden",
+                "patterns": [
+                  "How do I make my garden more sustainable?",
+                  "What are the best practices for a sustainable garden?",
+                  "Can gardening be eco-friendly?"
+                ],
+                "responses": [
+                  "Make your garden sustainable by composting, using organic fertilizers, and planting drought-resistant species. Incorporate rainwater harvesting for irrigation.",
+                  "Sustainability in gardening includes reducing waste, avoiding chemical pesticides, and planting native species to support local ecosystems."
+                ]
+              },
+              {
+                "tag": "gardening_air_quality",
+                "patterns": [
+                  "How does home gardening improve air quality?",
+                  "Can gardening help clean the air?",
+                  "What is the impact of plants on air quality?",
+                  "Does gardening reduce air pollution?"
+                ],
+                "responses": [
+                  "Gardening improves air quality by absorbing carbon dioxide and releasing oxygen. Plants also filter pollutants and dust from the air.",
+                  "Home gardens contribute to cleaner air by reducing carbon footprints and providing natural air purification through greenery."
+                ]
+              },
+              {
+                "tag": "environmental_benefits",
+                "patterns": [
+                  "What are the environmental benefits of growing your own food?",
+                  "How does gardening help the environment?",
+                  "Is gardening eco-friendly?",
+                  "Can growing food reduce environmental impact?"
+                ],
+                "responses": [
+                  "Growing your own food reduces the carbon footprint associated with transporting produce. It also minimizes packaging waste and promotes sustainable practices.",
+                  "Home gardening benefits the environment by conserving resources, improving soil health, and reducing reliance on industrial agriculture."
+                ]
+              },
+              {
+                "tag": "waste_reduction_gardening",
+                "patterns": [
+                  "How does gardening help reduce waste at home?",
+                  "Can gardening lower household waste?",
+                  "What is the role of gardening in waste reduction?",
+                  "Does composting reduce waste?"
+                ],
+                "responses": [
+                  "Gardening reduces waste by turning kitchen scraps into compost and reusing materials for planters and garden decor. It promotes a zero-waste lifestyle.",
+                  "By composting and recycling, gardening helps divert waste from landfills and creates valuable resources for plant growth."
+                ]
+              },
+                  {
+                    "tag": "low_light_plants",
+                    "patterns": [
+                      "How do I grow plants in low light conditions?",
+                      "Can plants grow without much sunlight?",
+                      "What are the best plants for low light?",
+                      "How can I garden indoors with limited light?"
+                    ],
+                    "responses": [
+                      "Plants like pothos, snake plants, and peace lilies thrive in low light conditions. Consider using grow lights for additional support if needed. Would you like care tips for these plants?",
+                      "To grow plants in low light, choose shade-tolerant species and place them near windows or use reflective surfaces to maximize available light. Let me know if you’d like suggestions for specific plants!"
+                    ]
+                  },
+                  {
+                    "tag": "air_purifying_plants",
+                    "patterns": [
+                      "What are the best plants for purifying indoor air?",
+                      "Can plants improve indoor air quality?",
+                      "Which plants are good for cleaning air indoors?",
+                      "What indoor plants help with air purification?"
+                    ],
+                    "responses": [
+                      "Air-purifying plants include spider plants, peace lilies, and areca palms. These plants filter toxins and improve air quality indoors. Would you like tips on how to care for them?",
+                      "For cleaner indoor air, grow plants like bamboo palm, rubber plant, or Boston fern. They’re easy to maintain and effective air purifiers. Would you like to know how to keep them healthy?"
+                    ]
+                  },
+                  {
+                    "tag": "no_backyard_gardening",
+                    "patterns": [
+                      "How can I grow plants if I don’t have a backyard?",
+                      "Can I garden without outdoor space?",
+                      "What are the options for gardening without a backyard?",
+                      "How do I garden indoors or in a balcony?"
+                    ],
+                    "responses": [
+                      "If you don’t have a backyard, try container gardening, balcony gardening, or indoor gardening with pots and hanging planters. Would you like tips for setting up a small indoor garden?",
+                      "No backyard? No problem! Use vertical gardens, window boxes, or hydroponic systems to grow plants in limited spaces. Let me know if you’d like suggestions for plants or tools!"
+                    ]
+                  },
+                  {
+                    "tag": "container_gardening",
+                    "patterns": [
+                      "What are the benefits of growing plants in containers?",
+                      "Why should I try container gardening?",
+                      "Is container gardening easy?",
+                      "What plants grow well in containers?"
+                    ],
+                    "responses": [
+                      "Container gardening is versatile, space-efficient, and allows you to move plants as needed. It’s ideal for beginners and small spaces. Would you like suggestions for container-friendly plants?",
+                      "Benefits of container gardening include better pest control, portability, and the ability to grow a variety of plants in limited space. Let me know if you need tips on choosing containers or plants!"
+                    ]
+                  },
+                  {
+                    "tag": "hot_weather_gardening_tips",
+                    "patterns": ["How should I garden in hot weather?", "Give me gardening tips for hot weather", "What plants are best for hot climates?"],
+                    "responses": [
+                      "In hot weather, make sure your plants are watered early in the morning and mulched to retain moisture. 🌞💧",
+                      "Consider planting heat-tolerant plants like succulents, cacti, and drought-resistant flowers during the summer months."
+                    ]
+                  },
+                  {
+                    "tag": "cold_weather_gardening_tips",
+                    "patterns": ["How should I garden in cold weather?", "Give me gardening tips for cold weather", "What plants grow well in cold climates?"],
+                    "responses": [
+                      "In colder climates, try using row covers or greenhouses to protect your plants from frost. ❄",
+                      "Cold-weather crops like kale, spinach, and carrots thrive in cooler temperatures. Consider planting them in late fall or early spring!"
+                    ]
+                  },
+                  {
+                    "tag": "spring_gardening_tips",
+                    "patterns": ["How should I garden in spring?", "Give me gardening tips for spring", "What plants grow well in spring?", "What should I plant in spring?"],
+                    "responses": [
+                        "Spring is a great time to plant cool-season crops like peas, lettuce, and radishes. 🌱",
+                        "Make sure to prepare your soil by adding compost and mulch to retain moisture and improve fertility for the new growing season. 🌿",
+                        "Spring is also ideal for planting flowers like tulips, daffodils, and pansies, which will brighten up your garden! 🌷"
+                    ]
+                  },
+                  {
+                    "tag": "monsoon_gardening_tips",
+                    "patterns": ["How should I garden in the monsoon?", "Give me gardening tips for monsoon", "What plants grow well in the monsoon?", "How do I protect my garden during monsoon?"],
+                    "responses": [
+                        "During the monsoon, focus on plants that thrive in wet conditions, such as rice, lotus, and water lilies. 🌾",
+                        "Ensure proper drainage in your garden to prevent waterlogging. Raised beds or pots can help plants stay healthy during heavy rains. 🌧",
+                        "Monsoon is also a great time to plant tropical plants like ginger, turmeric, and banana trees, which love the rainy season. 🌿"
+                  ]
+                  },
+                  {
+                    "tag": "seasonal_flowers",
+                    "patterns": [
+                      "What flowers bloom in each season?",
+                      "Can you suggest flowers for spring?",
+                      "What are the best flowers for summer?",
+                      "What flowers grow well in winter?"
+                    ],
+                    "responses": [
+                      "Spring flowers include tulips, daffodils, and hyacinths. Summer flowers like sunflowers and marigolds thrive in heat. Winter blooms include pansies and camellias.",
+                      "Seasonal flowers add charm to your garden. Try chrysanthemums in autumn or lilies in summer for vibrant colors."
+                    ]
+                  },
+                  {
+                    "tag": "flower_gardening_tips",
+                    "patterns": [
+                      "How do I start a flower garden?",
+                      "What are the best tips for growing flowers?",
+                      "Can I grow flowers indoors?",
+                      "What flowers are good for small spaces?"
+                    ],
+                    "responses": [
+                      "Start a flower garden by choosing the right location, preparing the soil, and planting seasonal flowers. Water regularly and remove weeds.",
+                      "For small spaces, try container gardening with flowers like petunias, geraniums, or begonias. They thrive in pots and small areas."
+                    ]
+                  },
+                    {
+                        "tag": "yellow_leaves_cause",
+                        "patterns": [
+                            "Why are my plant’s leaves turning yellow?",
+                            "What causes leaves to turn yellow?",
+                            "Why do plants get yellow leaves?",
+                            "How can I fix yellowing leaves?"
+                        ],
+                        "responses": [
+                            "Yellow leaves can be caused by overwatering, underwatering, nutrient deficiencies, or insufficient light. Check your plant’s care routine to identify the issue.",
+                            "Common reasons for yellow leaves include poor drainage, pests, or changes in temperature. Ensure proper care and monitor your plant closely."
+                        ]
+                    },
+                    {
+                        "tag": "revive_dying_plant",
+                        "patterns": [
+                            "How do I revive a dying plant?",
+                            "Can I save my dying plant?",
+                            "What should I do to bring my plant back to life?",
+                            "How can I help my plant recover?"
+                        ],
+                        "responses": [
+                            "To revive a dying plant, check its watering schedule, repot if needed, trim dead leaves, and ensure it’s getting the right amount of light.",
+                            "Start by identifying the cause of distress—overwatering, pests, or lack of nutrients. Adjust care routines accordingly and be patient."
+                        ]
+                    },
+                    {
+                        "tag": "brown_leaf_tips",
+                        "patterns": [
+                            "What causes brown tips on leaves?",
+                            "Why do my plant leaves have brown edges?",
+                            "How do I fix brown tips on plant leaves?",
+                            "What should I do if my plant leaves are browning?"
+                        ],
+                        "responses": [
+                            "Brown tips on leaves can result from over-fertilization, underwatering, or low humidity. Adjust your plant care routine to address these issues.",
+                            "Check for salt buildup in the soil, dry air, or inconsistent watering. Addressing these can help fix brown leaf tips."
+                        ]
+                    },
+                    {
+                        "tag": "no_flowering_plants",
+                        "patterns": [
+                            "Why are my plants not flowering?",
+                            "How do I make my plants flower?",
+                            "What causes plants to stop flowering?",
+                            "Why won’t my flowers bloom?"
+                        ],
+                        "responses": [
+                            "Lack of flowering can be due to insufficient light, over-fertilization, or incorrect pruning. Ensure your plant’s needs are met for optimal blooming.",
+                            "Check if your plant is getting the right light and nutrients. Sometimes, stress like drought can also encourage flowering in certain plants."
+                        ]
+                    },
+                    {
+                        "tag": "root_rot_prevention",
+                        "patterns": [
+                            "How do I prevent root rot in potted plants?",
+                            "What causes root rot, and how do I stop it?",
+                            "How can I keep my plant roots healthy?",
+                            "What are the best ways to avoid root rot?"
+                        ],
+                        "responses": [
+                            "To prevent root rot, use well-draining soil, avoid overwatering, and ensure pots have drainage holes.",
+                            "Root rot is caused by waterlogged soil. Let the soil dry out between waterings and use pots with proper drainage."
+                        ]
+                    },
+                    {
+                        "tag": "overwatering_signs",
+                        "patterns": [
+                            "What are the signs of overwatering a plant?",
+                            "How do I know if I’m overwatering my plant?",
+                            "What happens when you overwater plants?",
+                            "How can I tell if my plant has too much water?"
+                        ],
+                        "responses": [
+                            "Signs of overwatering include yellowing leaves, mushy roots, and soil that stays wet for too long. Adjust your watering schedule accordingly.",
+                            "Overwatering can cause wilting, leaf drop, and root rot. Always check soil moisture before watering."
+                        ]
+                    },
+                    {
+                        "tag": "mold_on_soil",
+                        "patterns": [
+                            "How do I deal with mold on plant soil?",
+                            "What should I do if my plant soil has mold?",
+                            "Why is there mold on my plant’s soil?",
+                            "How can I remove mold from potted plants?"
+                        ],
+                        "responses": [
+                            "To remove mold from soil, scrape off the top layer, reduce watering, and improve air circulation around the plant.",
+                            "Mold on soil is caused by overwatering or poor drainage. Let the soil dry out and consider repotting with fresh soil."
+                        ]
+                    },
+                    {
+                        "tag": "summer_vegetables",
+                        "patterns": [
+                            "What are the best summer vegetables to grow?",
+                            "Which vegetables thrive in summer?",
+                            "What should I plant in my garden during summer?",
+                            "What vegetables grow well in hot weather?"
+                        ],
+                        "responses": [
+                            "Great summer vegetables include tomatoes, cucumbers, peppers, and zucchini. These thrive in warm conditions and are easy to grow.",
+                            "Try growing summer vegetables like eggplants, beans, and squash. They love the heat and produce abundantly in the season."
+                        ]
+                    },
+                    {
+                        "tag": "monsoon_plants",
+                        "patterns": [
+                            "What are the best plants for monsoon gardening?",
+                            "Which plants grow well during the monsoon?",
+                            "What should I plant in the rainy season?",
+                            "What are the best crops for monsoon gardening?"
+                        ],
+                        "responses": [
+                            "Monsoon-friendly plants include rice, ginger, and turmeric. These thrive in wet conditions and benefit from the rain.",
+                            "Consider planting tropical plants like bananas, colocasia, and water lilies during the monsoon season."
+                        ]
+                    },
+                    {
+                        "tag": "autumn_flowers",
+                        "patterns": [
+                            "What flowers grow best in autumn?",
+                            "Which flowers bloom in the fall season?",
+                            "What are the best autumn flowers to plant?",
+                            "Can I grow flowers in autumn?"
+                        ],
+                        "responses": [
+                            "Chrysanthemums, marigolds, and pansies are perfect for autumn. They thrive in cooler weather and add vibrant colors to your garden.",
+                            "Autumn is a great time to plant flowers like asters, calendulas, and snapdragons. They bloom beautifully in the fall season."
+                        ]
+                    },
+                    {
+                        "tag": "medicinal_plants",
+                        "patterns": [
+                            "What are medicinal plants I can grow at home?",
+                            "Which herbs have medicinal properties?",
+                            "How do I grow medicinal plants?",
+                            "What are the best healing plants to grow?"
+                        ],
+                        "responses": [
+                            "Medicinal plants like aloe vera, tulsi, and mint are easy to grow and have numerous health benefits.",
+                            "Try growing herbs like rosemary, thyme, and chamomile for their medicinal properties and culinary uses."
+                        ]
+                    },
+                    {
+                        "tag": "indoor_herbs",
+                        "patterns": [
+                            "How do I grow herbs indoors?",
+                            "What are the best herbs for indoor gardening?",
+                            "Can I grow herbs inside my house?",
+                            "What herbs grow well indoors?"
+                        ],
+                        "responses": [
+                            "Herbs like basil, parsley, and cilantro grow well indoors. Place them near a sunny window and water regularly.",
+                            "To grow indoor herbs, use small pots with drainage, good-quality soil, and ensure they get enough light and ventilation."
+                        ]
+                    },
+                    {
+                        "tag": "slow_growing_plants",
+                        "patterns": [
+                            "Why are my plants growing slowly?",
+                            "What causes plants to grow slowly?",
+                            "How can I speed up plant growth?",
+                            "Why is my plant not growing as expected?"
+                        ],
+                        "responses": [
+                            "Slow growth can be caused by poor soil, lack of nutrients, or insufficient light. Ensure optimal conditions for your plant’s growth.",
+                            "Check if your plant is getting enough water, sunlight, and nutrients. Repotting or fertilizing might help boost growth."
+                        ]
+                    },
+                    {
+                        "tag": "white_spots_on_leaves",
+                        "patterns": [
+                            "What causes white spots on plant leaves?",
+                            "Why do my plant leaves have white spots?",
+                            "How do I treat white spots on leaves?",
+                            "What should I do about white patches on plant leaves?"
+                        ],
+                        "responses": [
+                            "White spots on leaves are often caused by fungal infections or pests like mealybugs. Use neem oil or fungicides to treat them.",
+                            "Check for powdery mildew or pest infestations. Proper ventilation and avoiding water on leaves can help prevent white spots."
+                        ]
+                      }
+        ]}
